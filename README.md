@@ -8,14 +8,17 @@ The script performs the following tasks:
 * Option to enable .NET Framework 3.5.
 * Removes **Windows Recovery Environment (WinRE)**.
 * Removes **Microsoft OneDrive**.
+* Removes all editions except the one you selected.
 * Disables or removes **Windows Update services**.
 * Applies **registry tweaks** from script.
 * Cleans temporary folders from script.
 * Enables previous version of setup.
-* Disables high ESD compression, switching from **Recovery** to **Fast** compression for improved processing speed.
-* Fixed **ARM64** image entries.
+* Disables high ESD compression, ISO will be generated faster but will be larger in size.
+* Fixes **ARM64** image entries.
 
 ## Guide
+* Mount the ISO.
+* Download .ps1 file.
 * Open PowerShell as Administrator.
 * Set the PowerShell execution policy to Bypass.
 * Download NSudo and run it as Administrator.

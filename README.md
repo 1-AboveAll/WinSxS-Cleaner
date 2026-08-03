@@ -1,6 +1,6 @@
 ## Overview
 
-This project is based on the Tiny11 Core script. Unlike the original Tiny11 builds, this script does **not** remove built-in Windows apps. Instead, it focuses on reducing WinSxS folder only. I recommend running this script after all other customizations.
+This project is based on the Tiny11 Core script. Unlike the original Tiny11 builds, this script does **not** remove built-in Windows apps. Instead, it reduces WinSxS folder and applies tweaks. You should run this script after **all** other customizations.
 
 The script performs the following tasks:
 
@@ -9,7 +9,7 @@ The script performs the following tasks:
 * Removes **Windows Recovery Environment (WinRE)**.
 * Removes **Microsoft OneDrive**.
 * Disables or removes **Windows Update services**.
-* Applies **registry tweaks** 
+* Applies **registry tweaks** from script.
 * Cleans temporary folders from script.
 * Enables previous version of setup.
 * Disables high ESD compression, switching from **Recovery** to **Fast** compression for improved processing speed.

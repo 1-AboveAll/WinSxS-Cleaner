@@ -16,11 +16,9 @@ The script performs the following tasks:
 * Fixed **ARM64** image entries.
 
 ## Guide
-Open PowerShell as Administrator.
-Set the PowerShell execution policy to Bypass.
-Download NSudo and run it as Administrator.
-In NSudo:
-Select TrustedInstaller as the user.
-Enable All Privileges.
-Launch the script through NSudo.
-Follow the on-screen instructions until the process is complete.
+* Open PowerShell as Administrator.
+* Set the PowerShell execution policy to Bypass.
+* Download NSudo and run it as Administrator.
+* In NSudo: Select TrustedInstaller & Enable All Privileges.
+* Launch the script through NSudo.
+* Follow the on-screen instructions until the process is complete.
